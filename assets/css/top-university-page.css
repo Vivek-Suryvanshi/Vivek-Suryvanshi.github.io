@@ -1,0 +1,111 @@
+.uni-filter-header {
+    padding-top: 1.5rem;
+}
+.uni-filter-header .uni-filter-body {
+    margin: 0;
+    padding: 0;
+}
+.uni-filter-header .uni-filter-body .uni-filter-card .uni-filter-default h6 {
+    text-align: right;
+    padding-right: 1.5rem;
+}
+.uni-filter-header .uni-filter-body .uni-filter-card .uni-filter-card-body .uni-card-body {
+    margin: 0;
+    padding: 0;
+  
+}
+.uni-filter-header .uni-filter-body .uni-filter-card .uni-filter-card-body .uni-card-body .uni-stream-search {
+    width: 100%;
+
+}
+.uni-filter-header .uni-filter-body .uni-filter-card .uni-filter-card-body .uni-card-body .uni-stream-search .uni-stream-icon {
+    width: 40px;
+    height: 40px;
+    padding: 0.5rem;
+}
+.uni-filter-header .uni-filter-body .uni-filter-card .uni-filter-card-body .uni-card-body .uni-stream-search .uni-stream-find {
+    width: 88%;
+    padding: 0;
+    margin: 0;
+}
+.uni-filter-header .uni-filter-body .uni-filter-card .uni-filter-card-body .uni-card-body .uni-stream-search .uni-stream-find::placeholder {
+    border-style: none;
+}
+.uni-filter-header .uni-filter-body .uni-filter-card .uni-filter-card-body .uni-card-body .uni-filter-menu .main-filter-menu {
+    list-style: none;
+}
+
+/* --------------TOP UNIVERSITIES CSS RIGHT PORTION------ */
+#top-university .uni-site-header .container{
+width: 100%;
+max-width: 100%;
+padding: 0 20px;
+}
+
+#top-university .uni-filter-header .container{
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+    }
+    .responsive-img{
+        width: 100%;
+        height: 80%;
+        border-radius: 10px;
+    }
+/* .btn-category{
+    background-color:var(--yellow-color);
+    border-radius: 1rem;
+    border: none;
+}
+.btn-category:hover{
+    background-color:var(--secondary-color);
+    color: var(--white-color);;
+    border-radius: 1rem;
+    border: none;
+    transition: 1s;
+}
+.btn-category-large{
+    border-radius: 2rem;
+    background-color:var(--secondary-color);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+}
+.btn-category-large:hover{
+    border-radius: 2rem;
+    background-color:var(--yellow-color);
+    color:var(--primary-color);
+    padding: 10px 20px 10px 20px;
+    border: none;
+    transition: 1s;
+}
+.btn-category-large2{
+    border-radius: 2rem;
+    border: none;
+    background-color:var(--yellow-color);
+    color:var(--primary-color);
+    padding: 10px 20px 10px 20px;
+}
+.btn-category-large2:hover{
+    border-radius: 2rem;
+    border: none;
+    background-color:var(--secondary-color);
+    color:white;
+    padding: 10px 20px 10px 20px;
+    transition: 1s;
+}
+.btn-category-insider{
+    background: none;
+    border-radius: 0.5rem;
+    color:var(--secondary-color);
+    /* padding: 10px; */
+    /* border: 1px solid grey; */
+/* } */
+
+
+.select-btn{
+    border: none;
+    border-right: 1px solid grey;
+}
+
+/* --------------TOP UNIVERSITIES CSS RIGHT PORTION------ */

@@ -1,0 +1,35 @@
+.blog_cont{
+  margin-top: 6rem;
+  margin-bottom: 7rem;
+}
+.card-img {
+    overflow: hidden;
+    border-radius: 1rem;
+  }
+  .card-img-top {
+    overflow: hidden;
+    transition: 0.4s;
+    /* width: 100%; */
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+  
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .flex-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+  .read-btn {
+    border: none;
+    background: transparent;
+    color: #0b0a4a;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding-right: 1rem;
+  }
+  .underlined-links:hover{
+    text-decoration: underline;
+  }

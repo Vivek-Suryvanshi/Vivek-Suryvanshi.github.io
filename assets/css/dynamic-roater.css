@@ -1,0 +1,86 @@
+/* ------Dynamic Roater----- */
+.roater-2 {
+    position: relative;
+    left: 30rem;
+    top: 3.5rem;
+  }
+  #roater {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .proton {
+    content: "";
+    position: relative;
+  }
+  .electron {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    animation: rotation 9s infinite linear;
+    border-radius: 50%;
+    border: 7px solid #26a6ca;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .electron::before {
+    content: "";
+    width: 45px;
+    height: 45px;
+    background-image: url(assets/new-images/icons/small-star.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 100;
+    left: -50px;
+    top: -50px;
+    border-radius: 100%;
+    margin: 65px;
+  }
+  .electron::after {
+    content: "";
+    width: 45px;
+    height: 45px;
+    background-image: url(assets/new-images/icons/small-star.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 134;
+    right: -50px;
+    bottom: -50px;
+    border-radius: 100%;
+    margin: 64px;
+  }
+  .neutron {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    animation: rotation 5s infinite linear;
+    border-radius: 50%;
+    border: 7px solid var(--secondary-color);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .neutron::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-image: url(assets/new-images/icons/Ellipse\ 12.png);
+    position: absolute;
+    z-index: 100;
+    left: -50px;
+    top: -50px;
+    border-radius: 100%;
+    margin: 65px;
+  }
+  @keyframes rotation {
+    0% {
+        transform: translate(-50%, -50%) rotate(-360deg);
+    }
+  }
+  /* ------Dynamic Roater----- */

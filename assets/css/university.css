@@ -1,0 +1,21 @@
+.hero__wrapper h1{
+    text-align: center;
+}
+.hero__wrapper .breadcrum li{
+    text-align: center;
+    margin: auto;
+}
+#bread{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+@media only screen and (min-width:375px)and (max-width:768px){
+    .breadcrumb-content{
+   font-size: 2rem;
+    }
+    .breadcrumb-item{
+        font-size: .6rem;
+         }
+  }

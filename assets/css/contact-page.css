@@ -1,0 +1,32 @@
+.contact__wrap {
+    background-color: var(--table-header-bg);
+    border-radius: 0.25rem;
+    border: 0.063rem solid var(--light-bg);
+}
+.contact__wrap h6 {
+    border-bottom: 0.063rem solid var(--light-bg);
+    padding: 0.7rem 1rem 0.7rem 2rem;
+}
+.contact__wrap .contact__wrap-body {
+    padding: 0.7rem 1rem 0.7rem 2rem;
+}
+.contact__wrap .contact__wrap-body .contact__body-info h4 {
+    margin-bottom: 2rem;
+}
+.contact__wrap .contact__wrap-body .contact__body-info .contact__info-content {
+    margin-bottom: 2rem;
+}
+.contact-faq {
+    background-color: var(--light-bg);
+}
+.contact-faq .accordion-button:not(.collapsed) {
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+}
+.contact-faq .accordion-button:not(.collapsed):after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+/* ----contact-page new css starts---- */
+
+/* ----contact-page new css ends------ */
