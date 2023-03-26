@@ -1,535 +1,496 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UniversityWala</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="assets/lib/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/lib/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/lib/owl-carousel/dist/assets/owl.carousel.min.css">
-    </link>
-    <link rel="stylesheet" href="assets/lib/owl-carousel/dist/assets/owl.theme.default.min.css">
-    </link>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/mega_menu.css">
-    <link rel="stylesheet" href="assets/css/new-blog.css">
-    <link rel="stylesheet" href="assets/css/blog_details.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Place for Everyone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- ------google fonts----- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&family=Noto+Sans:wght@200;300;400;500;600;700;800&family=Nunito+Sans:wght@300;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <!-- ------- header 1st starts------- -->
-    <div style="padding:15px 50px 15px 60px;max-height:3.938rem;margin:0; position: fixed;z-index:100 ;width: 100%;"
-        class="alert alert-warning alert-dismissible fade show alert-section" role="alert">
-        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  <!-- ------header starts------ -->
+  <header class="text-gray-600 body-font">
+    <div class="container-fluid mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img src="assets/images/logo/logo.jpg" alt="" width="100px">
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <a href="index.html" class="mr-5 text-purple-500 hover:text-purple-700 cursor-pointer"><b> Home</b></a>
+        <a href="about.html" class="mr-5 text-purple-500 hover:text-purple-700 cursor-pointer"><b> About Us</b></a>
+        <a href="blog.html" class="mr-5 text-purple-500 hover:text-purple-700 cursor-pointer"><b> Blog</b></a>
+        <a href="contact.html" class="mr-5 text-purple-500 hover:text-purple-700 cursor-pointer"><b> Contact Us</b></a>
+      </nav>
+      <button
+        class="inline-flex items-center bg-purple-900 text-white border-0 py-1 px-3 focus:outline-none hover:bg-purple-500 rounded text-lg mt-4 md:mt-0">Call
+        Now
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
     </div>
-    <!-- ------- header 1st ends------- -->
-    <!----------header 2nd starts-------->
-    <div class="container small-scr-off">
-        <nav style="max-height:5rem;" class="navbar d-flex justify-content-around container-fluid">
-            <div>
-                <a class="navbar-brand" href="#">
-                    <i class="bi bi-facebook"></i>
-                </a>
-                <a class="navbar-brand" href="#">
-                    <i class="bi bi-instagram"></i>
-                </a>
-                <a class="navbar-brand" href="#">
-                    <i class="bi bi-twitter"></i>
-                </a>
-                <a href=""><button type="button" class="primary-btn btn sign-in"><img
-                            src="assets/new-images/icons/phone-call.png" alt="" class="pe-3">+918860860467
-                        <span></span></button></a>
-            </div>
-            <div class="new-logo">
-                <img src="assets/new-images/UW New Logo/Logo.png" alt="" style="width:180px;">
-            </div>
-            <div class="d-flex" style="list-style:none ;">
-                <li class="ps-5"><a class="nav-link" href="#"> <button type="button"
-                            class="primary-btn btn sign-in"><img src="assets/new-images/icons/enter.png" alt=""
-                                class="pe-3"> Sign in<span></span></button>
-                    </a></li>
-                <li class="ps-3"><a class="nav-link" href="#"> <button type="button" class="secondary-btn btn"><img
-                                src="assets/new-images/icons/add-user.png" alt="" class="pe-3"> Sign
-                            up<span></span></button>
-                    </a></li>
-            </div>
-        </nav>
-    </div>
-    <!----------header 2nd ends-------->
-    <!--------- header 3rd Starts------>
-    <div class="mega-header small-scr-off">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-md-2 col-2 mt-2 ">
-                    <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                        <span class="mega-menu">
-                            <i class="bi bi-columns-gap"></i>
-                            Top Colleges
-                        </span>
-                    </a>
-                    <div class="dropdown-menu megamenu megamenu-content" role="menu">
-                        <div class="row g-3">
-                            <div class="col-lg-3 col-6">
-                                <div class="col-megamenu">
-                                    <h6 class="title">Title Menu One</h6>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6">
-                                <div class="col-megamenu">
-                                    <h6 class="title">Title Menu Two</h6>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6">
-                                <div class="col-megamenu">
-                                    <h6 class="title">Title Menu Three</h6>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-6">
-                                <div class="col-megamenu">
-                                    <h6 class="title">Title Menu Four</h6>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                        <li><a href="#">Custom Menu</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-md-8 col-8 d-flex align-items-center justify-content-center">
-                    <nav>
-                        <ul class="d-flex justify-content-between">
-                            <li><a class="navigation-link" href="index.html">Home</a></li>
-                            <li><a class="navigation-link" href="about.html">About</a></li>
-                            <li><a class="navigation-link" href="Blog.html">Blog</a></li>
-                            <li><a class="navigation-link" href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div id="mobile-hide" class="col-lg-2 col-md-2 col-2">
-                    <!-- ABOUT US SECTION FOR SMALL SCREENS -->
-                    <div class="dropdown search-icon hidden_icons float-right">
-                        <i class="bi bi-search dropbtn " onclick="myFunction()"></i> </li>
+  </header>
+  <!-- ------header ends-------- -->
+  <!-- -----hero section starts------- -->
+  <div class="h-40 bg-purple-400 items-center flex align-middle justify-center">
+    <h1 class=" sm:text-4xl md:text-6xl lg:text-7xl text-3xl font-bold title-font mb-10 text-white">Blog Details</h1>
+  </div>
+  <!-- -----hero section starts------- -->
 
-                        <div id="myDropdown" class="dropdown-content">
-                            <form class="input-group p-2">
-                                <input class="form-control border-primary" type="search" placeholder="Search..."
-                                    aria-label="Search">
-                                <button class="btn btn-primary m-0" type="submit">Search</button>
-                            </form>
-                            <ul class="list-group list-group-borderless p-2 small">
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <span class="fw-bold">Recent Searches:</span>
-                                    <button class="btn btn-sm btn-link mb-0 px-0">Clear all</button>
-                                </li>
-                                <li class="list-group-item text-primary-hover text-truncate">
-                                    <a href="#" class="text-body"> <i class="far fa-clock me-1"></i>Digital
-                                        marketing course for Beginner</a>
-                                </li>
-                                <li class="list-group-item text-primary-hover text-truncate">
-                                    <a href="#" class="text-body"> <i class="far fa-clock me-1"></i>Customer
-                                        Life cycle</a>
-                                </li>
-                                <li class="list-group-item text-primary-hover text-truncate">
-                                    <a href="#" class="text-body"> <i class="far fa-clock me-1"></i>What
-                                        is
-                                        Search</a>
-                                </li>
-                                <li class="list-group-item text-primary-hover text-truncate">
-                                    <a href="#" class="text-body"> <i class="far fa-clock me-1"></i>Facebook
-                                        ADS</a>
-                                </li>
-                            </ul>
-                        </div>
+  <!-- ------Latest News-products section starts----- -->
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <h1 class="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900 text-center pb-10"><span class="text-purple-900">Latest
+      </span> Updates & News</h1>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/images/blog-img/1.jpg"
+              alt="blog">
+            <div class="p-6">
+                <div class="flex justify-between">
+                    <div>
+                        <span
+          class="rounded-3xl border-1 py-1 px-3 bg-purple-900 text-white font-bold border-transparent hover:border-purple-700">Read
+          More</span>
                     </div>
-                    <!-- ABOUT US SECTION FOR SMALL SCREENS -->
+          <div style="margin-top:-3rem;">
+            <span
+          class="rounded-2xl border-1 py-8 px-1 bg-purple-500 text-white font-bold border-transparent hover:border-purple-700">10
+          Jan</span>
+          </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!--------- header 3rd Ends------->
-    <!--Mega Menu Mobile Header Starts-->
-    <nav class="navbar navbar-expand-lg d-lg-none" style="background-color:var(--primary-color);">
-        <div class="container">
-            <div class="col">
-                <span class="responsive-logo">
-                    <a href="#">
-                        <img style="width:160px;" src="assets/new-images/UW New Logo/Logo.png" alt="">
-                    </a>
+              
+              <h1 class="title-font text-lg font-bold text-gray-900 mb-3 pt-3"><button>The Catalyzer</button></h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha.</p>
+              <div class="flex items-center flex-wrap ">
+                <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span
+                  class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
                 </span>
-                <button class="navbar-toggler"
-                    style="position:absolute; top:0; right: 0;margin-right: 15px; margin-top: 10px;" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"><i class="bi bi-list" style="padding-top:10px;"></i></span>
-                </button>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
             </div>
-            <div class="collapse navbar-collapse" id="main_nav">
-                <ul class="navbar-nav" id="sidebar">
-                    <li class="nav-item active"> <a class="nav-link" href="index.html">Home </a> </li>
-                    <li class="nav-item"><a class="nav-link" href="about.html"> About </a></li>
-                    <li class="nav-item dropdown has-megamenu">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Top Colleges</a>
-                        <div class="dropdown-menu megamenu" role="menu">
-                            <div class="row g-3">
-                                <div class="col-lg-3 col-6">
-                                    <div class="col-megamenu">
-                                        <h6 class="title">Title Menu One</h6>
-                                        <ul class="list-unstyled">
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                        </ul>
-                                    </div> <!-- col-megamenu.// -->
-                                </div><!-- end col-3 -->
-                                <div class="col-lg-3 col-6">
-                                    <div class="col-megamenu">
-                                        <h6 class="title">Title Menu Two</h6>
-                                        <ul class="list-unstyled">
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                        </ul>
-                                    </div> <!-- col-megamenu.// -->
-                                </div><!-- end col-3 -->
-                                <div class="col-lg-3 col-6">
-                                    <div class="col-megamenu">
-                                        <h6 class="title">Title Menu Three</h6>
-                                        <ul class="list-unstyled">
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                        </ul>
-                                    </div> <!-- col-megamenu.// -->
-                                </div>
-                                <div class="col-lg-3 col-6">
-                                    <div class="col-megamenu">
-                                        <h6 class="title">Title Menu Four</h6>
-                                        <ul class="list-unstyled">
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                        </ul>
-                                    </div> <!-- col-megamenu.// -->
-                                </div><!-- end col-3 -->
-                            </div><!-- end row -->
-                        </div> <!-- dropdown-mega-menu.// -->
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="Blog.html"> Blogs </a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html"> Contact </a></li>
-                </ul>
-                <ul class="navbar-nav ms-auto">
-                    <div class="col-lg-3 text-end uni-site-cta d-lg-block d-none">
-                    </div>
-                    <div class="row">
-                        <li class="nav-item"><a class="nav-link" href="#"><button type="button"
-                                    class="mp-btn btn sign-in">Sign in<span><i
-                                            class="fas fa-phone-alt"></i></span></button> </a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"> <button type="button"
-                                    class="raj-btn btn">Sign up<span><i class="fas fa-phone-alt"></i></span></button>
-                            </a></li>
-
-                    </div>
-                </ul>
-            </div> <!-- navbar-collapse.// -->
-        </div> <!-- container-fluid.// -->
-    </nav>
-    <!--Mega Menu Mobile Header Ends-->
-     <!-- About Hero -->
-     <section class="about-hero-contact d-flex align-items-center justify-content-start"
-     style="background-image: url('assets/new-images/about-imgs/pexels-asim-alnamat-556195\ 1.png');">
-     <div class="container">
-         <div class="hero__wrapper">
-             <a href=""><h2 class="page__title breadcrumb-content"><span class="color-change">2022 Best Global <br> Universites Rankings</span> </h2></a>            
-             <nav aria-label="breadcrumb">
-                 <ol class="breadcrumb">
-                     <li class="breadcrumb-item breadcrumb-content"><a href="home.html">Home</a></li>
-                     <li class="breadcrumb-item active breadcrumb-content" aria-current="page"><a href="">Top Universities</a> </li>
-                 </ol>
-             </nav>
-         </div>
-     </div>
- </section>
- <!-- About Hero Ends-->
-<!-- ----New Blog Section starts------->
-<section class="sec-padding">
-<div class="container">
-    <div class="row">
-        <div class="col-lg-9 col-7">
-            <img src="assets/new-images/top-details/lg-college.png" alt="">
-        </div>
-            <div class="col-lg-3 col-5 new-blog-sec">
-                <h6>2022 Best Global Universites Rankings</h6>
-                <p>Lorem, ipsum dolor sit amet consectetu elit.</p>
-                <p class="color-change">Read More</p>
-                <h6>2022 Best Global Universites Rankings</h6>
-                <p>Lorem, ipsum dolor sit amet consectetu elit.</p>
-                <p class="color-change">Read More</p>
-                <h6>2022 Best Global Universites Rankings</h6>
-                <p>Lorem, ipsum dolor sit amet consectetu elit.</p>
-                <p class="color-change">Read More</p>
-            </div>
-        </div>
-    </div>
-</div>
-</section>
-<!-- -------intro section starts----->
-<section class="mt-2">
-    <div class="container">
-        <h4 class="color-change">2022 Global Top Universites Ranking</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi recusandae dignissimos corporis eligendi, et eum totam sequi qui eius. Ducimus, nam minus? Voluptatem quasi rerum commodi! Perferendis porro quibusdam voluptatum fugit cum. Quos maiores soluta laborum unde veniam culpa, temporibus similique iusto repudiandae dignissimos asperiores possimus dolores, voluptate blanditiis? Facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati neque tenetur perferendis facilis porro nobis voluptate! Earum molestiae sunt iste.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, aliquid veniam excepturi vero, nam placeat corporis voluptates ea maxime, voluptas amet quo laborum obcaecati quod natus aspernatur optio perferendis enim quaerat dolores. Est ad maxime facilis laudantium excepturi voluptatem velit blanditiis? Dignissimos, numquam, qui magnam quae ad, voluptate obcaecati placeat aliquam quam dolor reiciendis debitis commodi! Temporibus iusto pariatur, repudiandae praesentium veniam quia! Et id ex aut dolore aliquid pariatur, non optio quo facilis obcaecati. Eveniet, fugiat et porro accusamus at voluptate perferendis alias, laudantium non dolores suscipit, nisi eaque adipisci! Rerum iste sunt alias pariatur ullam! Animi, aliquam ab. <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident accusamus enim, reprehenderit nam odit reiciendis tempora quis? Aut obcaecati reprehenderit fugit, ipsa perferendis pariatur tenetur eos a sint similique consequatur, sapiente modi dolores quo distinctio voluptate eveniet quam quidem! Optio, eaque architecto. Velit in nesciunt possimus similique aspernatur deleniti reiciendis ea ipsam culpa neque, optio doloremque assumenda sequi laboriosam sint voluptatum totam! Natus labore, commodi quasi ullam rerum eveniet ipsa explicabo eius nihil obcaecati? Magni cumque dolorum repellat nesciunt repellendus sapiente tempore illo quae voluptatibus asperiores veritatis dignissimos soluta quia, quasi quis, doloribus quos voluptatum adipisci? Voluptatum consequuntur ad qui!
-        </p>
-    </div>
-</section>
-<!-- -------intro section ends---- -->
-<!-- -----Gallery intro section starts---- -->
-<section class="sec-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-6 pt-2 img-fluid">
-                <img src="assets/new-images/top-details/sm-college.png" alt="">
-            </div>
-            <div class="col-lg-8 col-6 gallery-intro-sec">
-                <h5 class="color-change">Lorem ipsum dolor sit Lorem ipsum dolor sit. Lorem ipsum dolor sit amet.</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat voluptates unde blanditiis commodi vel soluta est a, debitis impedit architecto ipsa tempora facere quo, placeat mollitia veritatis consequuntur. Mollitia iure aperiam ipsum! Error at praesentium omnis accusantium nulla! Est quia officia, nam beatae dolores quam laboriosam. Officia soluta qui temporibus accusamus at natus nam quisquam, illum ex accusantium ipsam quaerat! Perferendis aliquid asperiores labore cum, alias, omnis nostrum libero quae distinctio adipisci dicta. Aspernatur dicta atque, maxime dolore nulla quae laboriosam? Nesciunt ratione sed blanditiis minima cupiditate iure, consequuntur assumenda? Fugit iste laboriosam, illo hic cum commodi expedita corporis harum soluta cupiditate, similique nulla ipsa quod alias error voluptatum aliquam distinctio rerum id illum laudantium. Sint libero voluptates rerum aliquid magnam ipsum, accusantium deserunt unde ratione dolor? Est tempora neque, enim quod illum dicta harum odio facere minus porro alias blanditiis mollitia dolores aperiam itaque, molestias sed ea, odit necessitatibus.</p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- -----Gallery intro section ends------ -->
-<!-- -------form section starts---------->
-<div class="container sec-padding border ps-5 shadow-sm bg-body rounded">
-    <div class="row">
-        <div class="mb-3 col-5">
-            <label for="exampleFormControlInput1" class="form-label color-change">Full Name</label>
-            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Name">
           </div>
-          <div class="col-5">
-            <label for="exampleFormControlInput1" class="form-label color-change">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your email">
-         
-          </div>
-    </div>
-
-      <div class="mb-3 col-6">
-        <label for="exampleFormControlTextarea1" class="form-label color-change">Type a message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
-      </div>
-      <div>
-        <button class="btn primary-btn"> Submit</button>
-      </div>
-</div>
-
-<!-- -------form section ends------------>
-<!-- ----New Blog Section ends------->
-    <!-- ----site news section start----- -->
-    <section class="uni-newsletter" style="margin-top:5rem;">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="newsletter-wrap col-lg-7 col-md-8 col-sm-12 text-center">
-                    <h3>Subscribe To Our Newsletter</h3>
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label"></label>
-                            <input type="email" class="form-control text-center" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter Your Email">
-                        </div>
-
-                    </form>
-                </div>
-            </div>
         </div>
-    </section>
-    <!-- ----site news section ends----- -->
-    <!-- Contact Map Section -->
-    <section class="content-map sec-padding">
-        <div class="container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.997991232643!2d77.43962741411897!3d23.17027341660786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c43e7057a12df%3A0x8540307b019e9774!2sMBBS%20Wala%20-%20No1%20consultant%20for%20medical%20Admission!5e0!3m2!1sen!2sin!4v1656750921387!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </section>
-    <!-- Contact Map Section Ends-->
-    
-    <!-- Contact Faq Section -->
-    <section class="contact-faq sec-padding">
-        <div class="container">
-            <div class="sec-heading text-center">
-                <p>Frequently Asked Questions</p>
-                <h3><span class="theme-cl">Your <span class="color-change">Question's Answers</span></span></h3>
+        <div class="p-4 md:w-1/3">
+            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/images/blog-img/2.jpg"
+                alt="blog">
+              <div class="p-6">
+                  <div class="flex justify-between">
+                      <div>
+                          <span
+            class="rounded-3xl border-1 py-1 px-3 bg-purple-900 text-white font-bold border-transparent hover:border-purple-700">Read
+            More</span>
+                      </div>
+            <div style="margin-top:-3rem;">
+              <span
+            class="rounded-2xl border-1 py-8 px-1 bg-purple-500 text-white font-bold border-transparent hover:border-purple-700">10
+            Jan</span>
             </div>
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Accordion Item #1
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
                   </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Accordion Item #2
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Accordion Item #3
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
+                
+                <h1 class="title-font text-lg font-bold text-gray-900 mb-3 pt-3"><button>The Catalyzer</button></h1>
+                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha.</p>
+                <div class="flex items-center flex-wrap ">
+                  <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold">Learn More
+                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <span
+                    class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                      stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>1.2K
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                      stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path
+                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                      </path>
+                    </svg>6
+                  </span>
                 </div>
               </div>
-        </div>
-    </section>
-    <!-- Contact Faq Section Ends-->
-   <!-- Footer -->
-   <footer class="uni-site-footer sec-padding">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-3">
-                    <div class="footer-widget footer-logo">
-                        <h2><a href="#">
-                           <img src="assets/new-images/UW New Logo/Logo.png" alt="universitywala.in" style="width: 250px;">
-                            </a></h2>
-                        <div class="footer-add">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis quis vero voluptatibus.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-3">
-                    <div class="footer-widget">
-                        <h5 class="widget-title">Company</h5>
-                        <ul class="footer-menu">
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="faq.html">FAQs Page</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-3">
-                    <div class="footer-widget">
-                        <h5 class="widget-title">New Categories</h5>
-                        <ul class="footer-menu">
-                            <li><a href="#">Designing</a></li>
-                            <li><a href="#">Nusiness</a></li>
-                            <li><a href="#">Software</a></li>
-                            <li><a href="#">WordPress</a></li>
-                            <li><a href="#">PHP</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-3">
-                    <div class="footer-widget">
-                        <h5 class="widget-title">Find Us</h5>
-                            <ul class="footer-menu">
-                                <li><a href="#">SF17 Aakriti Business Centre Salaiya, <br>Bhopal, 462026 (MP)</a></li>
-                                <li><a href="#"><button class="btn primary-btn mt-3 mb-3">Subscribe Now</button></a></li>
-                                <li><a href="#">+91-7880119983</a></li>
-                                <li><a href="#">ceombbswala@gmail.com</a></li>
-                            </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-12">
-                    <div class="footer-widget">
-                        <h5 class="widget-title">Social Links</h5>
-                        <ul class="footer-bottom-social">
-                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                            <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
-    
-    <div class="footer-bottom text-center">
-        <div class="container">
-            <div class="row align-items-center">
-
-                <div class="col-12">
-                    <p class="mb-0">© 2020 UniversityWala.</p>
+        <div class="p-4 md:w-1/3">
+            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/images/blog-img/3.jpg"
+                alt="blog">
+              <div class="p-6">
+                  <div class="flex justify-between">
+                      <div>
+                          <span
+            class="rounded-3xl border-1 py-1 px-3 bg-purple-900 text-white font-bold border-transparent hover:border-purple-700">Read
+            More</span>
+                      </div>
+            <div style="margin-top:-3rem;">
+              <span
+            class="rounded-2xl border-1 py-8 px-1 bg-purple-500 text-white font-bold border-transparent hover:border-purple-700">10
+            Jan</span>
+            </div>
+                  </div>
+                
+                <h1 class="title-font text-lg font-bold text-gray-900 mb-3 pt-3"><button>The Catalyzer</button></h1>
+                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha.</p>
+                <div class="flex items-center flex-wrap ">
+                  <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold">Learn More
+                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <span
+                    class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                      stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>1.2K
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                      stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path
+                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                      </path>
+                    </svg>6
+                  </span>
                 </div>
-
+              </div>
             </div>
         </div>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/images/blog-img/4.jpg"
+              alt="blog">
+            <div class="p-6">
+                <div class="flex justify-between">
+                    <div>
+                        <span
+          class="rounded-3xl border-1 py-1 px-3 bg-purple-900 text-white font-bold border-transparent hover:border-purple-700">Read
+          More</span>
+                    </div>
+          <div style="margin-top:-3rem;">
+            <span
+          class="rounded-2xl border-1 py-8 px-1 bg-purple-500 text-white font-bold border-transparent hover:border-purple-700">10
+          Jan</span>
+          </div>
+                </div>
+              
+              <h1 class="title-font text-lg font-bold text-gray-900 mb-3 pt-3"><button>The Catalyzer</button></h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha.</p>
+              <div class="flex items-center flex-wrap ">
+                <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+                <span
+                  class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>1.2K
+                </span>
+                <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                  <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>6
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/images/blog-img/5.jpg"
+                alt="blog">
+              <div class="p-6">
+                  <div class="flex justify-between">
+                      <div>
+                          <span
+            class="rounded-3xl border-1 py-1 px-3 bg-purple-900 text-white font-bold border-transparent hover:border-purple-700">Read
+            More</span>
+                      </div>
+            <div style="margin-top:-3rem;">
+              <span
+            class="rounded-2xl border-1 py-8 px-1 bg-purple-500 text-white font-bold border-transparent hover:border-purple-700">10
+            Jan</span>
+            </div>
+                  </div>
+                
+                <h1 class="title-font text-lg font-bold text-gray-900 mb-3 pt-3"><button>The Catalyzer</button></h1>
+                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha.</p>
+                <div class="flex items-center flex-wrap ">
+                  <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold">Learn More
+                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <span
+                    class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                      stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>1.2K
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                      stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path
+                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                      </path>
+                    </svg>6
+                  </span>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+            <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/images/blog-img/6.jpg"
+                alt="blog">
+              <div class="p-6">
+                  <div class="flex justify-between">
+                      <div>
+                          <span
+            class="rounded-3xl border-1 py-1 px-3 bg-purple-900 text-white font-bold border-transparent hover:border-purple-700">Read
+            More</span>
+                      </div>
+            <div style="margin-top:-3rem;">
+              <span
+            class="rounded-2xl border-1 py-8 px-1 bg-purple-500 text-white font-bold border-transparent hover:border-purple-700">10
+            Jan</span>
+            </div>
+                  </div>
+                
+                <h1 class="title-font text-lg font-bold text-gray-900 mb-3 pt-3"><button>The Catalyzer</button></h1>
+                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha.</p>
+                <div class="flex items-center flex-wrap ">
+                  <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold">Learn More
+                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <span
+                    class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                      stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>1.2K
+                  </span>
+                  <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"
+                      stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path
+                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                      </path>
+                    </svg>6
+                  </span>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
     </div>
-</footer>
-<!-- Footer -->
+  </section>
+  <!-- ------Latest News-products section ends------- -->
+  <!-- -------CTA section starts------>
+  <section class="text-gray-600 body-font py-10">
+    <div class="container px-5 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class=" text-3xl font-bold title-font mb-4 text-gray-900">Subscribe <span
+            class="text-purple-900">Now!</span></h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
+          asymmetrical gentrify.
+          deep.</p>
+      </div>
+      <div
+        class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+        <div class="relative flex-grow w-full">
+          <label for="email" class="leading-7 text-lg text-gray-600">Email</label>
+          <input type="email" id="email" name="email"
+            class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-purple-500 focus:bg-transparent focus:ring-2 focus:ring-purple-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <button
+          class="text-white bg-purple-900 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg">Send</button>
+      </div>
+    </div>
+  </section>
+  <!-- -------CTA section ends-------->
 
-    <!-- <a id="back2Top" class="top-scroll" title="Back to top" href="#" style="display: block;"><i class="ti-arrow-up"></i></a> -->
-
-    <script src="assets/lib/jquery/jquery.min.js"></script>
-    <script src="assets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/lib/owl-carousel/dist/owl.carousel.min.js" type="text/javascript"></script>
-    <script src="assets/js/carausol_slider.js" type="text/javascript"></script>
-    <script src="assets/js/script.js" type="text/javascript"></script>
+  <!-- -------Footer section Starts------->
+  <footer class="text-white body-font bg-purple-900">
+    <div
+      class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <a class="flex title-font font-bold items-center md:justify-start justify-center text-gray-900">
+          <img src="assets/images/logo/white-logo.png" alt="" class="mx-auto footer_logo__img" width="50px">
+        </a>
+        <p class="mt-2 text-sm text-white text-center">Air plant banjo lyft occupy retro adaptogen indego</p>
+      </div>
+      <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-bold text-white tracking-widest text-md mb-3">CATEGORIES</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">First Link</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">Second Link</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">Third Link</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">Fourth Link</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-bold text-white tracking-widest text-md mb-3">CATEGORIES</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">First Link</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">Second Link</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">Third Link</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">Fourth Link</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-bold text-white tracking-widest text-md mb-3">CATEGORIES</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">First Link</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">Second Link</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">Third Link</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">Fourth Link</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-bold text-white tracking-widest text-md mb-3">CATEGORIES</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">First Link</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">Second Link</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">Third Link</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-purple-300 cursor-pointer">Fourth Link</a>
+            </li>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="bg-purple-600">
+      <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+        <p class="text-white text-sm text-center sm:text-left">© 2023 Market Place —
+          <a href="https://yourwebsitewala.com/" rel="noopener noreferrer" class="text-white ml-1"
+            target="_blank">@yourwebsitewala</a>
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+          <a class="text-white  cursor-pointer hover:text-purple-200">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-white cursor-pointer hover:text-purple-200">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+              </path>
+            </svg>
+          </a>
+          <a class="ml-3 text-white cursor-pointer hover:text-purple-200">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-white cursor-pointer hover:text-purple-200">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+  <!-- -------Footer section Ends--------->
+  <script src="owl-carousel/index.js"></script>
 </body>
 
 </html>
